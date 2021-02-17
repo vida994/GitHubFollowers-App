@@ -11,6 +11,8 @@
 		B41D122F25DD772A00541D95 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D122E25DD772A00541D95 /* User.swift */; };
 		B41D123325DD7AC600541D95 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D123225DD7AC600541D95 /* NetworkManager.swift */; };
 		B41D123825DD850A00541D95 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D123725DD850A00541D95 /* ErrorMessage.swift */; };
+		B41D123D25DD8AAE00541D95 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D123C25DD8AAE00541D95 /* FollowerCell.swift */; };
+		B41D124125DD8B4B00541D95 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D124025DD8B4B00541D95 /* GFAvatarImageView.swift */; };
 		B4CF1A6825DB0C1E00B1866E /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CF1A6725DB0C1E00B1866E /* SearchVC.swift */; };
 		B4CF1A6B25DB0C7500B1866E /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CF1A6A25DB0C7500B1866E /* FavoritesListVC.swift */; };
 		B4CF1A6E25DC3A7F00B1866E /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CF1A6D25DC3A7F00B1866E /* GFButton.swift */; };
@@ -31,6 +33,8 @@
 		B41D122E25DD772A00541D95 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B41D123225DD7AC600541D95 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B41D123725DD850A00541D95 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		B41D123C25DD8AAE00541D95 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		B41D124025DD8B4B00541D95 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		B4CF1A6725DB0C1E00B1866E /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		B4CF1A6A25DB0C7500B1866E /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		B4CF1A6D25DC3A7F00B1866E /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
@@ -72,11 +76,13 @@
 		B41D122625DD711400541D95 /* Custom Elements */ = {
 			isa = PBXGroup;
 			children = (
+				B41D123B25DD8A8900541D95 /* Cells */,
 				B4CF1A7C25DC570200B1866E /* GFAlertVC.swift */,
 				B4CF1A6D25DC3A7F00B1866E /* GFButton.swift */,
 				B4CF1A7025DC3DDE00B1866E /* GFTextField.swift */,
 				B4CF1A7625DC544D00B1866E /* GFTitleLabel.swift */,
 				B4CF1A7925DC561D00B1866E /* GFBodyLabel.swift */,
+				B41D124025DD8B4B00541D95 /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Elements";
 			sourceTree = "<group>";
@@ -112,6 +118,14 @@
 				B41D123725DD850A00541D95 /* ErrorMessage.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B41D123B25DD8A8900541D95 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B41D123C25DD8AAE00541D95 /* FollowerCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		B4EFF34625DB05D60053E1EE = {
@@ -222,8 +236,10 @@
 				B4CF1A6B25DB0C7500B1866E /* FavoritesListVC.swift in Sources */,
 				B4CF1A6E25DC3A7F00B1866E /* GFButton.swift in Sources */,
 				B4CF1A8025DC5E6600B1866E /* UIViewController+Ext.swift in Sources */,
+				B41D124125DD8B4B00541D95 /* GFAvatarImageView.swift in Sources */,
 				B4CF1A6825DB0C1E00B1866E /* SearchVC.swift in Sources */,
 				B4CF1A7D25DC570200B1866E /* GFAlertVC.swift in Sources */,
+				B41D123D25DD8AAE00541D95 /* FollowerCell.swift in Sources */,
 				B41D123825DD850A00541D95 /* ErrorMessage.swift in Sources */,
 				B4CF1A7A25DC561D00B1866E /* GFBodyLabel.swift in Sources */,
 				B41D122B25DD766300541D95 /* Follower.swift in Sources */,
